@@ -1,0 +1,2 @@
+- name: provision ec2
+  import_tasks: provision_ec2.yml

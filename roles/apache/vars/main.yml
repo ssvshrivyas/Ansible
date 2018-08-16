@@ -1,0 +1,11 @@
+---
+# vars file for /root/roles/apache
+vars:
+  instance_type: t2.micro
+  image: ami-5e8bb23b # This is an AMI i created myself
+  keypair: id_rsa # This is one of my keys that i already have in AWS
+  region: us-east-2 # Change the Region
+  security_group: aws_ansible
+  #count: 1
+  vpc_id: vpc-0d9f8baaa99a3815b
+

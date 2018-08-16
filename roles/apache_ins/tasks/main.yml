@@ -1,0 +1,5 @@
+---
+# tasks file for /root/roles/apache_ins
+- name: install apache
+  import_tasks: apache.yml
+

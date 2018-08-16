@@ -1,0 +1,6 @@
+---
+# handlers file for /root/roles/apache_ins
+- name: start service httpd
+  service:
+    name: httpd
+    state: restarted
